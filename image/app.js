@@ -19,4 +19,6 @@ window.onload = function() {
   ProseEditor.mount({
     editorSession: editorSession
   }, document.body)
+
+  window.doc = doc
 }
